@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaPhone, FaEnvelope, FaMapMarkerAlt, FaClock } from 'react-icons/fa';
 
-const Contact = () => {
+function Contact() {
   return (
     <div className="container mx-auto px-4 py-12">
       {/* Page Title */}

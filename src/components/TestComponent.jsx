@@ -1,6 +1,6 @@
 import React from 'react';
 
-const TestComponent = () => {
+function TestComponent() {
   return (
     <div className="p-8">
       <div className="bg-blue-500 text-white p-4 rounded-lg shadow-lg mb-4">

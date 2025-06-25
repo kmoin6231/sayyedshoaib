@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaSnowflake } from 'react-icons/fa';
 
-const Header = () => {
+function Header() {
   return (
     <header className="bg-white shadow-sm py-4">
       <div className="container mx-auto px-4">

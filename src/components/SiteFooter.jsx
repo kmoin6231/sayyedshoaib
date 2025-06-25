@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { FaSnowflake, FaPhone, FaEnvelope } from 'react-icons/fa';
 
-const Footer = () => {
+function Footer() {
   const year = new Date().getFullYear();
   const [hoverIndex, setHoverIndex] = useState(null);
   

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Home = () => {
+function Home() {
   return (
     <div className="container mx-auto px-4 py-12">
       {/* Hero Section */}
