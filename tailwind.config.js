@@ -5,7 +5,12 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      transitionProperty: {
+        'height': 'height',
+        'spacing': 'margin, padding',
+      }
+    },
   },
   plugins: [],
   safelist: [
@@ -19,8 +24,18 @@ export default {
     'text-gray-600',
     'text-gray-700',
     'hover:text-blue-500',
+    'hover:bg-blue-600',
+    'hover:shadow-lg',
+    'active:scale-95',
+    'focus:outline-none',
+    'focus:ring-2',
+    'focus:ring-blue-500',
+    'focus:ring-opacity-50',
     'bg-gradient-to-r',
     'from-blue-50',
-    'to-blue-100'
+    'to-blue-100',
+    'transition-colors',
+    'duration-200',
+    'ease-in-out'
   ]
 }

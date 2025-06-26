@@ -8,9 +8,11 @@ function Home() {
         <div className="max-w-2xl mx-auto text-center">
           <h1 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Professional Air Conditioning Services</h1>
           <p className="text-gray-600 mb-8">Keep your home comfortable all year round with our expert AC repair and maintenance services.</p>
-          <button className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-6 rounded-lg shadow-lg transition-colors">
-            Schedule Service
-          </button>
+          <a href="#contact">
+            <button className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-6 rounded-lg shadow-lg transition-colors active:scale-95">
+              Schedule Service
+            </button>
+          </a>
         </div>
       </div>
       
@@ -19,25 +21,31 @@ function Home() {
         <h2 className="text-2xl font-bold text-center text-gray-800 mb-8">Our Services</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {/* Service Card 1 */}
-          <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
-            <div className="text-blue-500 text-4xl mb-4">🧊</div>
-            <h3 className="text-xl font-semibold text-gray-800 mb-2">AC Repair</h3>
-            <p className="text-gray-600">Fast, reliable repairs for all air conditioning systems. Available 24/7 for emergency service.</p>
-          </div>
+          <a href="#services" className="block">
+            <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow h-full">
+              <div className="text-blue-500 text-4xl mb-4">🧊</div>
+              <h3 className="text-xl font-semibold text-gray-800 mb-2">AC Repair</h3>
+              <p className="text-gray-600">Fast, reliable repairs for all air conditioning systems. Available 24/7 for emergency service.</p>
+            </div>
+          </a>
           
           {/* Service Card 2 */}
-          <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
-            <div className="text-blue-500 text-4xl mb-4">🔧</div>
-            <h3 className="text-xl font-semibold text-gray-800 mb-2">Maintenance</h3>
-            <p className="text-gray-600">Regular maintenance to keep your AC running efficiently and prevent costly breakdowns.</p>
-          </div>
+          <a href="#services" className="block">
+            <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow h-full">
+              <div className="text-blue-500 text-4xl mb-4">🔧</div>
+              <h3 className="text-xl font-semibold text-gray-800 mb-2">Maintenance</h3>
+              <p className="text-gray-600">Regular maintenance to keep your AC running efficiently and prevent costly breakdowns.</p>
+            </div>
+          </a>
           
           {/* Service Card 3 */}
-          <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
-            <div className="text-blue-500 text-4xl mb-4">📦</div>
-            <h3 className="text-xl font-semibold text-gray-800 mb-2">Installation</h3>
-            <p className="text-gray-600">Expert installation of new air conditioning systems with warranty and follow-up service.</p>
-          </div>
+          <a href="#services" className="block">
+            <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow h-full">
+              <div className="text-blue-500 text-4xl mb-4">📦</div>
+              <h3 className="text-xl font-semibold text-gray-800 mb-2">Installation</h3>
+              <p className="text-gray-600">Expert installation of new air conditioning systems with warranty and follow-up service.</p>
+            </div>
+          </a>
         </div>
       </div>
       

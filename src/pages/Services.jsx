@@ -89,9 +89,11 @@ function Services() {
               <li>• 10% discount on repairs</li>
               <li>• Standard response time</li>
             </ul>
-            <button className="w-full bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg shadow-sm transition-colors">
-              Choose Plan
-            </button>
+            <a href="#contact">
+              <button className="w-full bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg shadow-sm transition-colors active:scale-95">
+                Choose Plan
+              </button>
+            </a>
           </div>
           
           {/* Premium Plan */}
@@ -108,9 +110,11 @@ function Services() {
               <li>• 20% discount on repairs</li>
               <li>• Priority response time</li>
             </ul>
-            <button className="w-full bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg shadow-sm transition-colors">
-              Choose Plan
-            </button>
+            <a href="#contact">
+              <button className="w-full bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg shadow-sm transition-colors active:scale-95">
+                Choose Plan
+              </button>
+            </a>
           </div>
           
           {/* Business Plan */}
@@ -124,9 +128,11 @@ function Services() {
               <li>• 25% discount on repairs</li>
               <li>• 24/7 priority support</li>
             </ul>
-            <button className="w-full bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg shadow-sm transition-colors">
-              Contact Us
-            </button>
+            <a href="#contact">
+              <button className="w-full bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg shadow-sm transition-colors active:scale-95">
+                Contact Us
+              </button>
+            </a>
           </div>
         </div>
       </div>
@@ -135,9 +141,11 @@ function Services() {
       <div className="text-center">
         <h2 className="text-2xl font-bold text-gray-800 mb-4">Ready to schedule a service?</h2>
         <p className="text-gray-600 mb-6">Our expert technicians are just a call away.</p>
-        <button className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-8 rounded-lg shadow-lg transition-colors">
-          Contact Us Now
-        </button>
+        <a href="#contact">
+          <button className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-8 rounded-lg shadow-lg transition-colors active:scale-95">
+            Contact Us Now
+          </button>
+        </a>
       </div>
     </div>
   );

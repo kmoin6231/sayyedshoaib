@@ -41,8 +41,14 @@ function Footer() {
           </div>
         </div>
         
-        {/* Copyright */}
-        <div className="border-t border-gray-200 pt-6 pb-4 flex flex-col sm:flex-row justify-center items-center text-center">
+        {/* Quick Links */}
+        <div className="border-t border-gray-200 pt-6 pb-4 flex flex-col sm:flex-row justify-center items-center">
+          <div className="flex space-x-4 mb-4 sm:mb-0 sm:mr-8">
+            <a href="#" className="text-gray-600 hover:text-blue-500 transition-colors">Home</a>
+            <a href="#services" className="text-gray-600 hover:text-blue-500 transition-colors">Services</a>
+            <a href="#about" className="text-gray-600 hover:text-blue-500 transition-colors">About</a>
+            <a href="#contact" className="text-gray-600 hover:text-blue-500 transition-colors">Contact</a>
+          </div>
           <div className="text-sm text-gray-500">
             © {year} Cool Air Repairs. All rights reserved.
           </div>

@@ -12,6 +12,22 @@
   box-shadow: 3px 3px 6px rgba(0,0,0,0.05), -3px -3px 6px rgba(255,255,255,0.8);
 }
 
+/* Button styling */
+button {
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+button:active {
+  transform: scale(0.97);
+}
+
+button:focus {
+  outline: none;
+}
+
 /* Force text color and background for basic elements */
 body {
   background-color: white;
