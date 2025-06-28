@@ -14,7 +14,7 @@ function SinglePage() {
         <div className="container mx-auto px-4 relative z-10">
           <div className="bg-gradient-to-r from-blue-100 to-blue-200 rounded-2xl p-10 mb-12 shadow-xl border border-blue-200">
             <div className="max-w-2xl mx-auto text-center">
-              <h1 className="text-4xl md:text-5xl font-extrabold text-blue-800 mb-4 tracking-tight drop-shadow-lg">Professional Air Conditioning Services</h1>
+              <h1 className="text-4xl md:text-5xl font-extrabold text-blue-800 mb-4 tracking-tight drop-shadow-lg">FrostFlow Air Solutions</h1>
               <p className="text-lg text-blue-700 mb-8 font-medium">Keep your home comfortable all year round with our expert AC repair and maintenance services.</p>
               <a href="tel:+917620373841">
                 <button className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-full shadow-xl transition-all duration-200 flex items-center gap-2 mx-auto active:scale-95">
@@ -57,7 +57,7 @@ function SinglePage() {
             </div>
             {/* Service 2 */}
             <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-shadow border border-blue-100 group">
-              <div className="text-blue-500 text-5xl mb-4 group-hover:scale-110 transition-transform">🛠️</div>
+              <div className="text-blue-500 text-5xl mb-4 group-hover:scale-110 transition-transform">🌀</div>
               <h3 className="text-2xl font-bold text-gray-800 mb-2">AC Maintenance</h3>
               <p className="text-blue-700 mb-4">Regular maintenance to keep your system running efficiently and extend its lifespan.</p>
               <ul className="text-gray-600 space-y-2 mb-4 list-disc list-inside">
@@ -101,7 +101,7 @@ function SinglePage() {
       {/* About Section */}
       <section className="py-16 bg-gradient-to-br from-blue-50 to-blue-100" id="about">
         <div className="container mx-auto px-4">
-          <h2 className="text-4xl md:text-5xl font-extrabold text-blue-800 mb-4 text-center tracking-tight">About Cool Air Repairs</h2>
+          <h2 className="text-4xl md:text-5xl font-extrabold text-blue-800 mb-4 text-center tracking-tight">FrostFlow Air Solutions</h2>
           <p className="text-blue-700 max-w-2xl mx-auto text-center mb-12 text-lg font-medium">
             Trusted AC repair and maintenance services for homes and businesses across India.
           </p>
